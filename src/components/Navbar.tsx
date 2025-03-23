@@ -1,8 +1,8 @@
-
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import DigitalCustomerService from './DigitalCustomerService';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,6 +43,7 @@ const Navbar = () => {
     { name: 'Sustainability', path: '/sustainability' },
     { name: 'Experience', path: '/experience' },
     { name: 'About', path: '/about' },
+    { name: 'Customer Service', path: '/customer-service' },
   ];
 
   // Animation variants
@@ -217,6 +218,9 @@ const Navbar = () => {
           ))}
         </div>
       </div>
+
+      {/* Digital Customer Service */}
+      <DigitalCustomerService />
     </motion.header>
   );
 };

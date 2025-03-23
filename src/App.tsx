@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -16,6 +15,7 @@ import TempControlJeans from "./pages/products/TempControlJeans";
 import DigitalTwin from "./pages/products/DigitalTwin";
 import TechnicalArchitecturePage from "./pages/TechnicalArchitecturePage";
 import ContentStrategyPage from "./pages/ContentStrategyPage";
+import CustomerServicePage from "./pages/CustomerServicePage";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +37,7 @@ const App = () => (
           <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/technical-architecture" element={<TechnicalArchitecturePage />} />
           <Route path="/content-strategy" element={<ContentStrategyPage />} />
+          <Route path="/customer-service" element={<CustomerServicePage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
