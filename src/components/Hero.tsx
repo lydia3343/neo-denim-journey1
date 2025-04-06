@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
@@ -187,7 +186,7 @@ const Hero = () => {
                 }}
               />
               <motion.img
-                src="https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80"
+                src="/img/1.png"
                 alt="Premium Denim"
                 className="w-full h-full object-cover object-center"
                 style={{ maxHeight: '600px', minHeight: '400px' }}
