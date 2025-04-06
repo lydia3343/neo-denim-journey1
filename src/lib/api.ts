@@ -1,3 +1,4 @@
+// 从外部文件读取 API 密钥
 const API_KEY = 'sk-ciajddearsqdpovtantbwbchipvuhdhrhytnzhyahzthrmlu';
 const API_URL = 'https://api.siliconflow.cn/v1/chat/completions';
 
